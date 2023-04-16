@@ -50,7 +50,7 @@ namespace ServerCore.Networking.Packets
             Action = EntityAction.STAND;
             Life = characterInformation.Health;
             Level = characterInformation.Level;
-            Metempsychosis = characterInformation.Metempsychosis;
+            Metempsychosis = characterInformation.Metepsychosis;
             Nobility = 0;
             FirstProfession = (ProfessionType) characterInformation.AncestorProfession;
             LastProfession = (ProfessionType) characterInformation.PreviousProfession;

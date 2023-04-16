@@ -173,7 +173,7 @@ namespace LoginServer.Network
                             ServerKernel.LoginTransferSalt, pClient.IpAddress);
                         var pCrypto = pTransferCipher.Encrypt(new[] { pUser.Identity, dwHash });
 
-                        string szAddress = "135.12.15.139"; // random ip just to connect
+                        string szAddress = "192.168.129.106"; // random ip just to connect
                         if (!pServer.IpAddress.StartsWith("127") && pServer.IpAddress != "localhost")
                             szAddress = pServer.IpAddress;
 

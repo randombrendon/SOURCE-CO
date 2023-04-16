@@ -53,7 +53,7 @@ namespace ServerCore.Networking.Packets
             set { WriteUInt(value, 12); }
         }
 
-        public uint RequiredMetempsychosis
+        public uint RequiredMetepsychosis
         {
             get { return ReadUInt(16); }
             set { WriteUInt(value, 16); }

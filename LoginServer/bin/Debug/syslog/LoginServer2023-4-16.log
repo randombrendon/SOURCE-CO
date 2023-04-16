@@ -1,0 +1,297 @@
+2023-04-16 17:23:44 [ERROR] - Could not connect to mysql server.
+2023-04-16 17:23:44 [EXCEPTION] - FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> NHibernate.HibernateException: Could not create the driver from NHibernate.Driver.MySqlDataDriver, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4. ---> System.Reflection.TargetInvocationException: Uma exceção foi acionada pelo destino de uma chamada. ---> System.ArgumentException: Não foi possível localizar o Provedor de Dados .Net Framework solicitado. Talvez ele não esteja instalado.
+   em System.Data.Common.DbProviderFactories.GetFactory(String providerInvariantName)
+   em NHibernate.Driver.ReflectionBasedDriver..ctor(String providerInvariantName, String driverAssemblyName, String connectionTypeName, String commandTypeName)
+   em NHibernate.Driver.MySqlDataDriver..ctor()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   em System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   em System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   em System.Activator.CreateInstance(Type type)
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   em NHibernate.Connection.ConnectionProviderFactory.NewConnectionProvider(IDictionary`2 settings)
+   em NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties)
+   em NHibernate.Cfg.Configuration.BuildSettings()
+   em NHibernate.Cfg.Configuration.BuildSessionFactory()
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   em DB.SessionFactory.CreateLoginFactory() na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 126
+   em DB.SessionFactory..ctor(String szHost, Boolean bIsLogin) na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 56
+   em LoginServer.Program.ServerStartup() na C:\CONQUER\Random Server\LoginServer\Program.cs:linha 87
+
+
+2023-04-16 17:25:03 [ERROR] - Could not connect to mysql server.
+2023-04-16 17:25:03 [EXCEPTION] - FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> NHibernate.HibernateException: Could not create the driver from NHibernate.Driver.MySqlDataDriver, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4. ---> System.Reflection.TargetInvocationException: Uma exceção foi acionada pelo destino de uma chamada. ---> System.ArgumentException: Não foi possível localizar o Provedor de Dados .Net Framework solicitado. Talvez ele não esteja instalado.
+   em System.Data.Common.DbProviderFactories.GetFactory(String providerInvariantName)
+   em NHibernate.Driver.ReflectionBasedDriver..ctor(String providerInvariantName, String driverAssemblyName, String connectionTypeName, String commandTypeName)
+   em NHibernate.Driver.MySqlDataDriver..ctor()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   em System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   em System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   em System.Activator.CreateInstance(Type type)
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   em NHibernate.Connection.ConnectionProviderFactory.NewConnectionProvider(IDictionary`2 settings)
+   em NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties)
+   em NHibernate.Cfg.Configuration.BuildSettings()
+   em NHibernate.Cfg.Configuration.BuildSessionFactory()
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   em DB.SessionFactory.CreateLoginFactory() na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 126
+   em DB.SessionFactory..ctor(String szHost, Boolean bIsLogin) na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 56
+   em LoginServer.Program.ServerStartup() na C:\CONQUER\Random Server\LoginServer\Program.cs:linha 87
+
+
+2023-04-16 17:29:55 [ERROR] - Could not connect to mysql server.
+2023-04-16 17:29:55 [EXCEPTION] - FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> NHibernate.HibernateException: Could not create the driver from NHibernate.Driver.MySqlDataDriver, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4. ---> System.Reflection.TargetInvocationException: Uma exceção foi acionada pelo destino de uma chamada. ---> System.ArgumentException: Não foi possível localizar o Provedor de Dados .Net Framework solicitado. Talvez ele não esteja instalado.
+   em System.Data.Common.DbProviderFactories.GetFactory(String providerInvariantName)
+   em NHibernate.Driver.ReflectionBasedDriver..ctor(String providerInvariantName, String driverAssemblyName, String connectionTypeName, String commandTypeName)
+   em NHibernate.Driver.MySqlDataDriver..ctor()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   em System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   em System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   em System.Activator.CreateInstance(Type type)
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   em NHibernate.Connection.ConnectionProviderFactory.NewConnectionProvider(IDictionary`2 settings)
+   em NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties)
+   em NHibernate.Cfg.Configuration.BuildSettings()
+   em NHibernate.Cfg.Configuration.BuildSessionFactory()
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   em DB.SessionFactory.CreateLoginFactory() na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 126
+   em DB.SessionFactory..ctor(String szHost, Boolean bIsLogin) na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 56
+   em LoginServer.Program.ServerStartup() na C:\CONQUER\Random Server\LoginServer\Program.cs:linha 87
+
+
+2023-04-16 17:36:50 [ERROR] - Could not connect to mysql server.
+2023-04-16 17:36:50 [EXCEPTION] - FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> NHibernate.HibernateException: Could not create the driver from NHibernate.Driver.MySqlDataDriver, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4. ---> System.Reflection.TargetInvocationException: Uma exceção foi acionada pelo destino de uma chamada. ---> System.ArgumentException: Não foi possível localizar o Provedor de Dados .Net Framework solicitado. Talvez ele não esteja instalado.
+   em System.Data.Common.DbProviderFactories.GetFactory(String providerInvariantName)
+   em NHibernate.Driver.ReflectionBasedDriver..ctor(String providerInvariantName, String driverAssemblyName, String connectionTypeName, String commandTypeName)
+   em NHibernate.Driver.MySqlDataDriver..ctor()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   em System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   em System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   em System.Activator.CreateInstance(Type type)
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   em NHibernate.Connection.ConnectionProviderFactory.NewConnectionProvider(IDictionary`2 settings)
+   em NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties)
+   em NHibernate.Cfg.Configuration.BuildSettings()
+   em NHibernate.Cfg.Configuration.BuildSessionFactory()
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   em DB.SessionFactory.CreateLoginFactory() na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 126
+   em DB.SessionFactory..ctor(String szHost, Boolean bIsLogin) na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 56
+   em LoginServer.Program.ServerStartup() na C:\CONQUER\Random Server\LoginServer\Program.cs:linha 87
+
+
+2023-04-16 17:37:07 [ERROR] - Could not connect to mysql server.
+2023-04-16 17:37:07 [EXCEPTION] - FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> NHibernate.HibernateException: Could not create the driver from NHibernate.Driver.MySqlDataDriver, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4. ---> System.Reflection.TargetInvocationException: Uma exceção foi acionada pelo destino de uma chamada. ---> System.ArgumentException: Não foi possível localizar o Provedor de Dados .Net Framework solicitado. Talvez ele não esteja instalado.
+   em System.Data.Common.DbProviderFactories.GetFactory(String providerInvariantName)
+   em NHibernate.Driver.ReflectionBasedDriver..ctor(String providerInvariantName, String driverAssemblyName, String connectionTypeName, String commandTypeName)
+   em NHibernate.Driver.MySqlDataDriver..ctor()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   em System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   em System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   em System.Activator.CreateInstance(Type type)
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   em NHibernate.Connection.ConnectionProviderFactory.NewConnectionProvider(IDictionary`2 settings)
+   em NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties)
+   em NHibernate.Cfg.Configuration.BuildSettings()
+   em NHibernate.Cfg.Configuration.BuildSessionFactory()
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   em DB.SessionFactory.CreateLoginFactory() na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 126
+   em DB.SessionFactory..ctor(String szHost, Boolean bIsLogin) na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 56
+   em LoginServer.Program.ServerStartup() na C:\CONQUER\Random Server\LoginServer\Program.cs:linha 87
+
+
+2023-04-16 17:37:36 [ERROR] - Could not connect to mysql server.
+2023-04-16 17:37:36 [EXCEPTION] - FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> NHibernate.HibernateException: Could not create the driver from NHibernate.Driver.MySqlDataDriver, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4. ---> System.Reflection.TargetInvocationException: Uma exceção foi acionada pelo destino de uma chamada. ---> System.ArgumentException: Não foi possível localizar o Provedor de Dados .Net Framework solicitado. Talvez ele não esteja instalado.
+   em System.Data.Common.DbProviderFactories.GetFactory(String providerInvariantName)
+   em NHibernate.Driver.ReflectionBasedDriver..ctor(String providerInvariantName, String driverAssemblyName, String connectionTypeName, String commandTypeName)
+   em NHibernate.Driver.MySqlDataDriver..ctor()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   em System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   em System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   em System.Activator.CreateInstance(Type type)
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   em NHibernate.Connection.ConnectionProviderFactory.NewConnectionProvider(IDictionary`2 settings)
+   em NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties)
+   em NHibernate.Cfg.Configuration.BuildSettings()
+   em NHibernate.Cfg.Configuration.BuildSessionFactory()
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   em DB.SessionFactory.CreateLoginFactory() na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 126
+   em DB.SessionFactory..ctor(String szHost, Boolean bIsLogin) na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 56
+   em LoginServer.Program.ServerStartup() na C:\CONQUER\Random Server\LoginServer\Program.cs:linha 87
+
+
+2023-04-16 17:39:02 [ERROR] - Could not connect to mysql server.
+2023-04-16 17:39:02 [EXCEPTION] - FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> NHibernate.HibernateException: Could not create the driver from NHibernate.Driver.MySqlDataDriver, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4. ---> System.Reflection.TargetInvocationException: Uma exceção foi acionada pelo destino de uma chamada. ---> System.ArgumentException: Não foi possível localizar o Provedor de Dados .Net Framework solicitado. Talvez ele não esteja instalado.
+   em System.Data.Common.DbProviderFactories.GetFactory(String providerInvariantName)
+   em NHibernate.Driver.ReflectionBasedDriver..ctor(String providerInvariantName, String driverAssemblyName, String connectionTypeName, String commandTypeName)
+   em NHibernate.Driver.MySqlDataDriver..ctor()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   em System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   em System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   em System.Activator.CreateInstance(Type type)
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   em NHibernate.Connection.ConnectionProviderFactory.NewConnectionProvider(IDictionary`2 settings)
+   em NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties)
+   em NHibernate.Cfg.Configuration.BuildSettings()
+   em NHibernate.Cfg.Configuration.BuildSessionFactory()
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   em DB.SessionFactory.CreateLoginFactory() na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 126
+   em DB.SessionFactory..ctor(String szHost, Boolean bIsLogin) na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 56
+   em LoginServer.Program.ServerStartup() na C:\CONQUER\Random Server\LoginServer\Program.cs:linha 87
+
+
+2023-04-16 17:41:54 [ERROR] - Could not connect to mysql server.
+2023-04-16 17:41:54 [EXCEPTION] - FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> NHibernate.HibernateException: Could not create the driver from NHibernate.Driver.MySqlDataDriver, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4. ---> System.Reflection.TargetInvocationException: Uma exceção foi acionada pelo destino de uma chamada. ---> System.ArgumentException: Não foi possível localizar o Provedor de Dados .Net Framework solicitado. Talvez ele não esteja instalado.
+   em System.Data.Common.DbProviderFactories.GetFactory(String providerInvariantName)
+   em NHibernate.Driver.ReflectionBasedDriver..ctor(String providerInvariantName, String driverAssemblyName, String connectionTypeName, String commandTypeName)
+   em NHibernate.Driver.MySqlDataDriver..ctor()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   em System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   em System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   em System.Activator.CreateInstance(Type type)
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   em NHibernate.Connection.ConnectionProviderFactory.NewConnectionProvider(IDictionary`2 settings)
+   em NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties)
+   em NHibernate.Cfg.Configuration.BuildSettings()
+   em NHibernate.Cfg.Configuration.BuildSessionFactory()
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   em DB.SessionFactory.CreateLoginFactory() na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 126
+   em DB.SessionFactory..ctor(String szHost, Boolean bIsLogin) na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 56
+   em LoginServer.Program.ServerStartup() na C:\CONQUER\Random Server\LoginServer\Program.cs:linha 87
+
+
+2023-04-16 17:46:47 [ERROR] - Could not connect to mysql server.
+2023-04-16 17:46:47 [EXCEPTION] - FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> NHibernate.HibernateException: Could not create the driver from NHibernate.Driver.MySqlDataDriver, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4. ---> System.Reflection.TargetInvocationException: Uma exceção foi acionada pelo destino de uma chamada. ---> System.ArgumentException: Não foi possível localizar o Provedor de Dados .Net Framework solicitado. Talvez ele não esteja instalado.
+   em System.Data.Common.DbProviderFactories.GetFactory(String providerInvariantName)
+   em NHibernate.Driver.ReflectionBasedDriver..ctor(String providerInvariantName, String driverAssemblyName, String connectionTypeName, String commandTypeName)
+   em NHibernate.Driver.MySqlDataDriver..ctor()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   em System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   em System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   em System.Activator.CreateInstance(Type type)
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   em NHibernate.Connection.ConnectionProviderFactory.NewConnectionProvider(IDictionary`2 settings)
+   em NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties)
+   em NHibernate.Cfg.Configuration.BuildSettings()
+   em NHibernate.Cfg.Configuration.BuildSessionFactory()
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   em DB.SessionFactory.CreateLoginFactory() na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 126
+   em DB.SessionFactory..ctor(String szHost, Boolean bIsLogin) na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 56
+   em LoginServer.Program.ServerStartup() na C:\CONQUER\Random Server\LoginServer\Program.cs:linha 87
+
+
+2023-04-16 17:58:57 [ERROR] - Could not connect to mysql server.
+2023-04-16 17:58:57 [EXCEPTION] - FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> NHibernate.HibernateException: Could not create the driver from NHibernate.Driver.MySqlDataDriver, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4. ---> System.Reflection.TargetInvocationException: Uma exceção foi acionada pelo destino de uma chamada. ---> System.ArgumentException: Não foi possível localizar o Provedor de Dados .Net Framework solicitado. Talvez ele não esteja instalado.
+   em System.Data.Common.DbProviderFactories.GetFactory(String providerInvariantName)
+   em NHibernate.Driver.ReflectionBasedDriver..ctor(String providerInvariantName, String driverAssemblyName, String connectionTypeName, String commandTypeName)
+   em NHibernate.Driver.MySqlDataDriver..ctor()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   em System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   em System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   em System.Activator.CreateInstance(Type type)
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   em NHibernate.Connection.ConnectionProviderFactory.NewConnectionProvider(IDictionary`2 settings)
+   em NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties)
+   em NHibernate.Cfg.Configuration.BuildSettings()
+   em NHibernate.Cfg.Configuration.BuildSessionFactory()
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   em DB.SessionFactory.CreateLoginFactory() na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 126
+   em DB.SessionFactory..ctor(String szHost, Boolean bIsLogin) na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 56
+   em LoginServer.Program.ServerStartup() na C:\CONQUER\Random Server\LoginServer\Program.cs:linha 87
+
+
+2023-04-16 18:05:25 [ERROR] - Could not connect to mysql server.
+2023-04-16 18:05:25 [EXCEPTION] - FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> NHibernate.HibernateException: Could not create the driver from NHibernate.Driver.MySqlDataDriver, NHibernate, Version=3.3.1.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4. ---> System.Reflection.TargetInvocationException: Uma exceção foi acionada pelo destino de uma chamada. ---> System.ArgumentException: Não foi possível localizar o Provedor de Dados .Net Framework solicitado. Talvez ele não esteja instalado.
+   em System.Data.Common.DbProviderFactories.GetFactory(String providerInvariantName)
+   em NHibernate.Driver.ReflectionBasedDriver..ctor(String providerInvariantName, String driverAssemblyName, String connectionTypeName, String commandTypeName)
+   em NHibernate.Driver.MySqlDataDriver..ctor()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em System.RuntimeTypeHandle.CreateInstance(RuntimeType type, Boolean publicOnly, Boolean noCheck, Boolean& canBeCached, RuntimeMethodHandleInternal& ctor, Boolean& bNeedSecurityCheck)
+   em System.RuntimeType.CreateInstanceSlow(Boolean publicOnly, Boolean skipCheckThis, Boolean fillCache, StackCrawlMark& stackMark)
+   em System.Activator.CreateInstance(Type type, Boolean nonPublic)
+   em System.Activator.CreateInstance(Type type)
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Connection.ConnectionProvider.ConfigureDriver(IDictionary`2 settings)
+   em NHibernate.Connection.ConnectionProviderFactory.NewConnectionProvider(IDictionary`2 settings)
+   em NHibernate.Cfg.SettingsFactory.BuildSettings(IDictionary`2 properties)
+   em NHibernate.Cfg.Configuration.BuildSettings()
+   em NHibernate.Cfg.Configuration.BuildSessionFactory()
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   em DB.SessionFactory.CreateLoginFactory() na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 126
+   em DB.SessionFactory..ctor(String szHost, Boolean bIsLogin) na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 56
+   em LoginServer.Program.ServerStartup() na C:\CONQUER\Random Server\LoginServer\Program.cs:linha 87
+
+

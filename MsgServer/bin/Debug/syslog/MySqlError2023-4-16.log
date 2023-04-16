@@ -1,0 +1,423 @@
+2023-04-16 17:25:22 [ERROR] - FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> MySql.Data.MySqlClient.MySqlException: Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'root'@'localhost' (using password: YES)
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   em MySql.Data.MySqlClient.NativeDriver.Open()
+   em MySql.Data.MySqlClient.Driver.Open()
+   em MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   em MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   em MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   em MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   em MySql.Data.MySqlClient.MySqlConnection.Open()
+   em NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   em NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   em NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   em NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   em NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   em NHibernate.Cfg.Configuration.BuildSessionFactory()
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   em DB.SessionFactory.CreateSessionFactory() na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 114
+   em DB.SessionFactory..ctor(String szGame, String szLogin, Boolean bConfirm) na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 69
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 82
+
+
+2023-04-16 17:28:30 [ERROR] - FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> MySql.Data.MySqlClient.MySqlException: Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'root'@'localhost' (using password: YES)
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   em MySql.Data.MySqlClient.NativeDriver.Open()
+   em MySql.Data.MySqlClient.Driver.Open()
+   em MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   em MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   em MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   em MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   em MySql.Data.MySqlClient.MySqlConnection.Open()
+   em NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   em NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   em NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   em NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   em NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   em NHibernate.Cfg.Configuration.BuildSessionFactory()
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   em DB.SessionFactory.CreateLoginFactory() na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 126
+   em DB.SessionFactory..ctor(String szGame, String szLogin, Boolean bConfirm) na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 77
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 82
+
+
+2023-04-16 17:29:45 [ERROR] - FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> MySql.Data.MySqlClient.MySqlException: Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'root'@'localhost' (using password: YES)
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   em MySql.Data.MySqlClient.NativeDriver.Open()
+   em MySql.Data.MySqlClient.Driver.Open()
+   em MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   em MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   em MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   em MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   em MySql.Data.MySqlClient.MySqlConnection.Open()
+   em NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   em NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   em NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   em NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   em NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   em NHibernate.Cfg.Configuration.BuildSessionFactory()
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   em DB.SessionFactory.CreateLoginFactory() na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 126
+   em DB.SessionFactory..ctor(String szGame, String szLogin, Boolean bConfirm) na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 77
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 82
+
+
+2023-04-16 17:36:51 [ERROR] - FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> MySql.Data.MySqlClient.MySqlException: Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'root'@'localhost' (using password: YES)
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   em MySql.Data.MySqlClient.NativeDriver.Open()
+   em MySql.Data.MySqlClient.Driver.Open()
+   em MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   em MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   em MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   em MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   em MySql.Data.MySqlClient.MySqlConnection.Open()
+   em NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   em NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   em NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   em NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   em NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   em NHibernate.Cfg.Configuration.BuildSessionFactory()
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   em DB.SessionFactory.CreateLoginFactory() na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 126
+   em DB.SessionFactory..ctor(String szGame, String szLogin, Boolean bConfirm) na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 77
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 82
+
+
+2023-04-16 17:39:03 [ERROR] - FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> MySql.Data.MySqlClient.MySqlException: Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'root'@'localhost' (using password: YES)
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   em MySql.Data.MySqlClient.NativeDriver.Open()
+   em MySql.Data.MySqlClient.Driver.Open()
+   em MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   em MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   em MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   em MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   em MySql.Data.MySqlClient.MySqlConnection.Open()
+   em NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   em NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   em NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   em NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   em NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   em NHibernate.Cfg.Configuration.BuildSessionFactory()
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   em DB.SessionFactory.CreateLoginFactory() na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 126
+   em DB.SessionFactory..ctor(String szGame, String szLogin, Boolean bConfirm) na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 77
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 82
+
+
+2023-04-16 17:39:54 [ERROR] - NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.id as id58_0_, this_.user_id as user2_58_0_, this_.old_name as old3_58_0_, this_.new_name as new4_58_0_, this_.timestamp as timestamp58_0_, this_.changed as changed58_0_ FROM cq_user_name_log this_ ]
+[SQL: SELECT this_.id as id58_0_, this_.user_id as user2_58_0_, this_.old_name as old3_58_0_, this_.new_name as new4_58_0_, this_.timestamp as timestamp58_0_, this_.changed as changed58_0_ FROM cq_user_name_log this_] ---> MySql.Data.MySqlClient.MySqlException: Table 'zf.cq_user_name_log' doesn't exist
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   em MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   em MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   em MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   em NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   em NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   em NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   em NHibernate.Impl.CriteriaImpl.List(IList results)
+   em NHibernate.Impl.CriteriaImpl.List[T]()
+   em DB.Repositories.NameChangeLogRepo.FetchAll() na C:\CONQUER\Random Server\DB\Repositories\Name Change Log Repo.cs:linha 23
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 122
+2023-04-16 17:40:35 [ERROR] - NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.id as id58_0_, this_.user_id as user2_58_0_, this_.old_name as old3_58_0_, this_.new_name as new4_58_0_, this_.timestamp as timestamp58_0_, this_.changed as changed58_0_ FROM cq_user_name_log this_ ]
+[SQL: SELECT this_.id as id58_0_, this_.user_id as user2_58_0_, this_.old_name as old3_58_0_, this_.new_name as new4_58_0_, this_.timestamp as timestamp58_0_, this_.changed as changed58_0_ FROM cq_user_name_log this_] ---> MySql.Data.MySqlClient.MySqlException: Table 'zf.cq_user_name_log' doesn't exist
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   em MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   em MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   em MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   em NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   em NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   em NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   em NHibernate.Impl.CriteriaImpl.List(IList results)
+   em NHibernate.Impl.CriteriaImpl.List[T]()
+   em DB.Repositories.NameChangeLogRepo.FetchAll() na C:\CONQUER\Random Server\DB\Repositories\Name Change Log Repo.cs:linha 23
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 122
+2023-04-16 17:44:00 [ERROR] - NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.id as id58_0_, this_.user_id as user2_58_0_, this_.old_name as old3_58_0_, this_.new_name as new4_58_0_, this_.timestamp as timestamp58_0_, this_.changed as changed58_0_ FROM cq_user_name_log this_ ]
+[SQL: SELECT this_.id as id58_0_, this_.user_id as user2_58_0_, this_.old_name as old3_58_0_, this_.new_name as new4_58_0_, this_.timestamp as timestamp58_0_, this_.changed as changed58_0_ FROM cq_user_name_log this_] ---> MySql.Data.MySqlClient.MySqlException: Table 'zf.cq_user_name_log' doesn't exist
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   em MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   em MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   em MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   em NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   em NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   em NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   em NHibernate.Impl.CriteriaImpl.List(IList results)
+   em NHibernate.Impl.CriteriaImpl.List[T]()
+   em DB.Repositories.NameChangeLogRepo.FetchAll() na C:\CONQUER\Random Server\DB\Repositories\Name Change Log Repo.cs:linha 23
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 122
+2023-04-16 17:44:24 [ERROR] - NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.id as id58_0_, this_.user_id as user2_58_0_, this_.old_name as old3_58_0_, this_.new_name as new4_58_0_, this_.timestamp as timestamp58_0_, this_.changed as changed58_0_ FROM cq_user_name_log this_ ]
+[SQL: SELECT this_.id as id58_0_, this_.user_id as user2_58_0_, this_.old_name as old3_58_0_, this_.new_name as new4_58_0_, this_.timestamp as timestamp58_0_, this_.changed as changed58_0_ FROM cq_user_name_log this_] ---> MySql.Data.MySqlClient.MySqlException: Table 'zf.cq_user_name_log' doesn't exist
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   em MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   em MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   em MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   em NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   em NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   em NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   em NHibernate.Impl.CriteriaImpl.List(IList results)
+   em NHibernate.Impl.CriteriaImpl.List[T]()
+   em DB.Repositories.NameChangeLogRepo.FetchAll() na C:\CONQUER\Random Server\DB\Repositories\Name Change Log Repo.cs:linha 23
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 122
+2023-04-16 18:23:45 [ERROR] - NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.id as id58_0_, this_.user_id as user2_58_0_, this_.old_name as old3_58_0_, this_.new_name as new4_58_0_, this_.timestamp as timestamp58_0_, this_.changed as changed58_0_ FROM cq_user_name_log this_ ]
+[SQL: SELECT this_.id as id58_0_, this_.user_id as user2_58_0_, this_.old_name as old3_58_0_, this_.new_name as new4_58_0_, this_.timestamp as timestamp58_0_, this_.changed as changed58_0_ FROM cq_user_name_log this_] ---> MySql.Data.MySqlClient.MySqlException: Table 'zf.cq_user_name_log' doesn't exist
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   em MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   em MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   em MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   em NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   em NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   em NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   em NHibernate.Impl.CriteriaImpl.List(IList results)
+   em NHibernate.Impl.CriteriaImpl.List[T]()
+   em DB.Repositories.NameChangeLogRepo.FetchAll() na C:\CONQUER\Random Server\DB\Repositories\Name Change Log Repo.cs:linha 23
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 122
+2023-04-16 18:23:49 [ERROR] - NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.id as id58_0_, this_.user_id as user2_58_0_, this_.old_name as old3_58_0_, this_.new_name as new4_58_0_, this_.timestamp as timestamp58_0_, this_.changed as changed58_0_ FROM cq_user_name_log this_ ]
+[SQL: SELECT this_.id as id58_0_, this_.user_id as user2_58_0_, this_.old_name as old3_58_0_, this_.new_name as new4_58_0_, this_.timestamp as timestamp58_0_, this_.changed as changed58_0_ FROM cq_user_name_log this_] ---> MySql.Data.MySqlClient.MySqlException: Table 'zf.cq_user_name_log' doesn't exist
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   em MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   em MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   em MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   em NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   em NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   em NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   em NHibernate.Impl.CriteriaImpl.List(IList results)
+   em NHibernate.Impl.CriteriaImpl.List[T]()
+   em DB.Repositories.NameChangeLogRepo.FetchAll() na C:\CONQUER\Random Server\DB\Repositories\Name Change Log Repo.cs:linha 23
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 122
+2023-04-16 18:26:40 [ERROR] - NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.id as id58_0_, this_.user_id as user2_58_0_, this_.old_name as old3_58_0_, this_.new_name as new4_58_0_, this_.timestamp as timestamp58_0_, this_.changed as changed58_0_ FROM cq_user_name_log this_ ]
+[SQL: SELECT this_.id as id58_0_, this_.user_id as user2_58_0_, this_.old_name as old3_58_0_, this_.new_name as new4_58_0_, this_.timestamp as timestamp58_0_, this_.changed as changed58_0_ FROM cq_user_name_log this_] ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'this_.id' in 'field list'
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   em MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   em MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   em MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   em NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   em NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   em NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   em NHibernate.Impl.CriteriaImpl.List(IList results)
+   em NHibernate.Impl.CriteriaImpl.List[T]()
+   em DB.Repositories.NameChangeLogRepo.FetchAll() na C:\CONQUER\Random Server\DB\Repositories\Name Change Log Repo.cs:linha 23
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 122
+2023-04-16 18:36:08 [ERROR] - NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.id as id29_0_, this_.need_prof as need2_29_0_, this_.new_prof as new3_29_0_, this_.need_level as need4_29_0_, this_.new_level as new5_29_0_, this_.metempsychosis as metempsy6_29_0_ FROM cq_rebirth this_ ]
+[SQL: SELECT this_.id as id29_0_, this_.need_prof as need2_29_0_, this_.new_prof as new3_29_0_, this_.need_level as need4_29_0_, this_.new_level as new5_29_0_, this_.metempsychosis as metempsy6_29_0_ FROM cq_rebirth this_] ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'this_.metempsychosis' in 'field list'
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   em MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   em MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   em MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   em NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   em NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   em NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   em NHibernate.Impl.CriteriaImpl.List(IList results)
+   em NHibernate.Impl.CriteriaImpl.List[T]()
+   em DB.Repositories.RebirthRepository.FetchAll() na C:\CONQUER\Random Server\DB\Repositories\Rebirth Repository.cs:linha 11
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 363
+2023-04-16 18:42:07 [ERROR] - NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.id as id29_0_, this_.need_prof as need2_29_0_, this_.new_prof as new3_29_0_, this_.need_level as need4_29_0_, this_.new_level as new5_29_0_, this_.metempsychosis as metempsy6_29_0_ FROM cq_rebirth this_ ]
+[SQL: SELECT this_.id as id29_0_, this_.need_prof as need2_29_0_, this_.new_prof as new3_29_0_, this_.need_level as need4_29_0_, this_.new_level as new5_29_0_, this_.metempsychosis as metempsy6_29_0_ FROM cq_rebirth this_] ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'this_.metempsychosis' in 'field list'
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   em MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   em MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   em MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   em NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   em NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   em NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   em NHibernate.Impl.CriteriaImpl.List(IList results)
+   em NHibernate.Impl.CriteriaImpl.List[T]()
+   em DB.Repositories.RebirthRepository.FetchAll() na C:\CONQUER\Random Server\DB\Repositories\Rebirth Repository.cs:linha 11
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 363
+2023-04-16 18:43:24 [ERROR] - NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.id as id29_0_, this_.need_prof as need2_29_0_, this_.new_prof as new3_29_0_, this_.need_level as need4_29_0_, this_.new_level as new5_29_0_, this_.metempsychosis as metempsy6_29_0_ FROM cq_rebirth this_ ]
+[SQL: SELECT this_.id as id29_0_, this_.need_prof as need2_29_0_, this_.new_prof as new3_29_0_, this_.need_level as need4_29_0_, this_.new_level as new5_29_0_, this_.metempsychosis as metempsy6_29_0_ FROM cq_rebirth this_] ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'this_.metempsychosis' in 'field list'
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   em MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   em MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   em MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   em NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   em NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   em NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   em NHibernate.Impl.CriteriaImpl.List(IList results)
+   em NHibernate.Impl.CriteriaImpl.List[T]()
+   em DB.Repositories.RebirthRepository.FetchAll() na C:\CONQUER\Random Server\DB\Repositories\Rebirth Repository.cs:linha 11
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 363
+2023-04-16 18:45:14 [ERROR] - NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.id as id20_0_, this_.type as type20_0_, this_.sort as sort20_0_, this_.name as name20_0_, this_.crime as crime20_0_, this_.ground as ground20_0_, this_.multi as multi20_0_, this_.target as target20_0_, this_.level as level20_0_, this_.use_mp as use10_20_0_, this_.power as power20_0_, this_.intone_speed as intone12_20_0_, this_.percent as percent20_0_, this_.step_secs as step14_20_0_, this_.`range` as range15_20_0_, this_.distance as distance20_0_, this_.status as status20_0_, this_.need_prof as need18_20_0_, this_.need_exp as need19_20_0_, this_.need_level as need20_20_0_, this_.use_xp as use21_20_0_, this_.weapon_subtype as weapon22_20_0_, this_.active_times as active23_20_0_, this_.auto_active as auto24_20_0_, this_.floor_attr as floor25_20_0_, this_.auto_learn as auto26_20_0_, this_.learn_level as learn27_20_0_, this_.drop_weapon as drop28_20_0_, this_.use_ep as use29_20_0_, this_.weapon_hit as weapon30_20_0_, this_.use_item as use31_20_0_, this_.next_magic as next32_20_0_, this_.delay_ms as delay33_20_0_, this_.use_item_num as use34_20_0_, this_.weapon_subtype_num as weapon35_20_0_, this_.element_type as element36_20_0_, this_.element_power as element37_20_0_ FROM cq_magictype this_ ]
+[SQL: SELECT this_.id as id20_0_, this_.type as type20_0_, this_.sort as sort20_0_, this_.name as name20_0_, this_.crime as crime20_0_, this_.ground as ground20_0_, this_.multi as multi20_0_, this_.target as target20_0_, this_.level as level20_0_, this_.use_mp as use10_20_0_, this_.power as power20_0_, this_.intone_speed as intone12_20_0_, this_.percent as percent20_0_, this_.step_secs as step14_20_0_, this_.`range` as range15_20_0_, this_.distance as distance20_0_, this_.status as status20_0_, this_.need_prof as need18_20_0_, this_.need_exp as need19_20_0_, this_.need_level as need20_20_0_, this_.use_xp as use21_20_0_, this_.weapon_subtype as weapon22_20_0_, this_.active_times as active23_20_0_, this_.auto_active as auto24_20_0_, this_.floor_attr as floor25_20_0_, this_.auto_learn as auto26_20_0_, this_.learn_level as learn27_20_0_, this_.drop_weapon as drop28_20_0_, this_.use_ep as use29_20_0_, this_.weapon_hit as weapon30_20_0_, this_.use_item as use31_20_0_, this_.next_magic as next32_20_0_, this_.delay_ms as delay33_20_0_, this_.use_item_num as use34_20_0_, this_.weapon_subtype_num as weapon35_20_0_, this_.element_type as element36_20_0_, this_.element_power as element37_20_0_ FROM cq_magictype this_] ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'this_.element_type' in 'field list'
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   em MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   em MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   em MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   em NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   em NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   em NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   em NHibernate.Impl.CriteriaImpl.List(IList results)
+   em NHibernate.Impl.CriteriaImpl.List[T]()
+   em DB.Repositories.MagicTypeRepository.FetchAll() na C:\CONQUER\Random Server\DB\Repositories\Magic Type.cs:linha 11
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 374
+2023-04-16 18:52:57 [ERROR] - NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.id as id20_0_, this_.type as type20_0_, this_.sort as sort20_0_, this_.name as name20_0_, this_.crime as crime20_0_, this_.ground as ground20_0_, this_.multi as multi20_0_, this_.target as target20_0_, this_.level as level20_0_, this_.use_mp as use10_20_0_, this_.power as power20_0_, this_.intone_speed as intone12_20_0_, this_.percent as percent20_0_, this_.step_secs as step14_20_0_, this_.`range` as range15_20_0_, this_.distance as distance20_0_, this_.status as status20_0_, this_.need_prof as need18_20_0_, this_.need_exp as need19_20_0_, this_.need_level as need20_20_0_, this_.use_xp as use21_20_0_, this_.weapon_subtype as weapon22_20_0_, this_.active_times as active23_20_0_, this_.auto_active as auto24_20_0_, this_.floor_attr as floor25_20_0_, this_.auto_learn as auto26_20_0_, this_.learn_level as learn27_20_0_, this_.drop_weapon as drop28_20_0_, this_.use_ep as use29_20_0_, this_.weapon_hit as weapon30_20_0_, this_.use_item as use31_20_0_, this_.next_magic as next32_20_0_, this_.delay_ms as delay33_20_0_, this_.use_item_num as use34_20_0_, this_.weapon_subtype_num as weapon35_20_0_, this_.element_type as element36_20_0_, this_.element_power as element37_20_0_ FROM cq_magictype this_ ]
+[SQL: SELECT this_.id as id20_0_, this_.type as type20_0_, this_.sort as sort20_0_, this_.name as name20_0_, this_.crime as crime20_0_, this_.ground as ground20_0_, this_.multi as multi20_0_, this_.target as target20_0_, this_.level as level20_0_, this_.use_mp as use10_20_0_, this_.power as power20_0_, this_.intone_speed as intone12_20_0_, this_.percent as percent20_0_, this_.step_secs as step14_20_0_, this_.`range` as range15_20_0_, this_.distance as distance20_0_, this_.status as status20_0_, this_.need_prof as need18_20_0_, this_.need_exp as need19_20_0_, this_.need_level as need20_20_0_, this_.use_xp as use21_20_0_, this_.weapon_subtype as weapon22_20_0_, this_.active_times as active23_20_0_, this_.auto_active as auto24_20_0_, this_.floor_attr as floor25_20_0_, this_.auto_learn as auto26_20_0_, this_.learn_level as learn27_20_0_, this_.drop_weapon as drop28_20_0_, this_.use_ep as use29_20_0_, this_.weapon_hit as weapon30_20_0_, this_.use_item as use31_20_0_, this_.next_magic as next32_20_0_, this_.delay_ms as delay33_20_0_, this_.use_item_num as use34_20_0_, this_.weapon_subtype_num as weapon35_20_0_, this_.element_type as element36_20_0_, this_.element_power as element37_20_0_ FROM cq_magictype this_] ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'this_.element_power' in 'field list'
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   em MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   em MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   em MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   em NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   em NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   em NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   em NHibernate.Impl.CriteriaImpl.List(IList results)
+   em NHibernate.Impl.CriteriaImpl.List[T]()
+   em DB.Repositories.MagicTypeRepository.FetchAll() na C:\CONQUER\Random Server\DB\Repositories\Magic Type.cs:linha 11
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 374
+2023-04-16 18:56:41 [ERROR] - NHibernate.Exceptions.GenericADOException: could not execute query
+[ SELECT this_.id as id20_0_, this_.type as type20_0_, this_.sort as sort20_0_, this_.name as name20_0_, this_.crime as crime20_0_, this_.ground as ground20_0_, this_.multi as multi20_0_, this_.target as target20_0_, this_.level as level20_0_, this_.use_mp as use10_20_0_, this_.power as power20_0_, this_.intone_speed as intone12_20_0_, this_.percent as percent20_0_, this_.step_secs as step14_20_0_, this_.`range` as range15_20_0_, this_.distance as distance20_0_, this_.status as status20_0_, this_.need_prof as need18_20_0_, this_.need_exp as need19_20_0_, this_.need_level as need20_20_0_, this_.use_xp as use21_20_0_, this_.weapon_subtype as weapon22_20_0_, this_.active_times as active23_20_0_, this_.auto_active as auto24_20_0_, this_.floor_attr as floor25_20_0_, this_.auto_learn as auto26_20_0_, this_.learn_level as learn27_20_0_, this_.drop_weapon as drop28_20_0_, this_.use_ep as use29_20_0_, this_.weapon_hit as weapon30_20_0_, this_.use_item as use31_20_0_, this_.next_magic as next32_20_0_, this_.delay_ms as delay33_20_0_, this_.use_item_num as use34_20_0_, this_.weapon_subtype_num as weapon35_20_0_, this_.element_type as element36_20_0_, this_.element_power as element37_20_0_ FROM cq_magictype this_ ]
+[SQL: SELECT this_.id as id20_0_, this_.type as type20_0_, this_.sort as sort20_0_, this_.name as name20_0_, this_.crime as crime20_0_, this_.ground as ground20_0_, this_.multi as multi20_0_, this_.target as target20_0_, this_.level as level20_0_, this_.use_mp as use10_20_0_, this_.power as power20_0_, this_.intone_speed as intone12_20_0_, this_.percent as percent20_0_, this_.step_secs as step14_20_0_, this_.`range` as range15_20_0_, this_.distance as distance20_0_, this_.status as status20_0_, this_.need_prof as need18_20_0_, this_.need_exp as need19_20_0_, this_.need_level as need20_20_0_, this_.use_xp as use21_20_0_, this_.weapon_subtype as weapon22_20_0_, this_.active_times as active23_20_0_, this_.auto_active as auto24_20_0_, this_.floor_attr as floor25_20_0_, this_.auto_learn as auto26_20_0_, this_.learn_level as learn27_20_0_, this_.drop_weapon as drop28_20_0_, this_.use_ep as use29_20_0_, this_.weapon_hit as weapon30_20_0_, this_.use_item as use31_20_0_, this_.next_magic as next32_20_0_, this_.delay_ms as delay33_20_0_, this_.use_item_num as use34_20_0_, this_.weapon_subtype_num as weapon35_20_0_, this_.element_type as element36_20_0_, this_.element_power as element37_20_0_ FROM cq_magictype this_] ---> MySql.Data.MySqlClient.MySqlException: Unknown column 'this_.element_power' in 'field list'
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   em MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   em MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   em MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   em NHibernate.AdoNet.AbstractBatcher.ExecuteReader(IDbCommand cmd)
+   em NHibernate.Loader.Loader.GetResultSet(IDbCommand st, Boolean autoDiscoverTypes, Boolean callable, RowSelection selection, ISessionImplementor session)
+   em NHibernate.Loader.Loader.DoQuery(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoQueryAndInitializeNonLazyCollections(ISessionImplementor session, QueryParameters queryParameters, Boolean returnProxies)
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em NHibernate.Loader.Loader.DoList(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Loader.Loader.ListIgnoreQueryCache(ISessionImplementor session, QueryParameters queryParameters)
+   em NHibernate.Impl.SessionImpl.List(CriteriaImpl criteria, IList results)
+   em NHibernate.Impl.CriteriaImpl.List(IList results)
+   em NHibernate.Impl.CriteriaImpl.List[T]()
+   em DB.Repositories.MagicTypeRepository.FetchAll() na C:\CONQUER\Random Server\DB\Repositories\Magic Type.cs:linha 11
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 374
