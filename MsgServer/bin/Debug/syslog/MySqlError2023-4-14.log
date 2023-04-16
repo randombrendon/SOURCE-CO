@@ -1,0 +1,60 @@
+2023-04-14 12:41:27 [ERROR] - FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> MySql.Data.MySqlClient.MySqlException: Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'root'@'localhost' (using password: YES)
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   em MySql.Data.MySqlClient.NativeDriver.Open()
+   em MySql.Data.MySqlClient.Driver.Open()
+   em MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   em MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   em MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   em MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   em MySql.Data.MySqlClient.MySqlConnection.Open()
+   em NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   em NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   em NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   em NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   em NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   em NHibernate.Cfg.Configuration.BuildSessionFactory()
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   em DB.SessionFactory.CreateSessionFactory() na C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\DB\Session Factory.cs:linha 114
+   em DB.SessionFactory..ctor(String szGame, String szLogin, Boolean bConfirm) na C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\DB\Session Factory.cs:linha 69
+   em MsgServer.Database.Initialize() na C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\MsgServer\Database.cs:linha 82
+
+
+2023-04-14 12:53:35 [ERROR] - FluentNHibernate.Cfg.FluentConfigurationException: An invalid or incomplete configuration was used while creating a SessionFactory. Check PotentialReasons collection, and InnerException for more detail.
+
+ ---> MySql.Data.MySqlClient.MySqlException: Authentication to host 'localhost' for user 'root' using method 'mysql_native_password' failed with message: Access denied for user 'root'@'localhost' (using password: YES) ---> MySql.Data.MySqlClient.MySqlException: Access denied for user 'root'@'localhost' (using password: YES)
+   em MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.AuthenticationFailed(Exception ex)
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.ReadPacket()
+   em MySql.Data.MySqlClient.Authentication.MySqlAuthenticationPlugin.Authenticate(Boolean reset)
+   em MySql.Data.MySqlClient.NativeDriver.Open()
+   em MySql.Data.MySqlClient.Driver.Open()
+   em MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   em MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   em MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   em MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   em MySql.Data.MySqlClient.MySqlConnection.Open()
+   em NHibernate.Connection.DriverConnectionProvider.GetConnection()
+   em NHibernate.Tool.hbm2ddl.SuppliedConnectionProviderConnectionHelper.Prepare()
+   em NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.GetReservedWords(Dialect dialect, IConnectionHelper connectionHelper)
+   em NHibernate.Tool.hbm2ddl.SchemaMetadataUpdater.Update(ISessionFactory sessionFactory)
+   em NHibernate.Impl.SessionFactoryImpl..ctor(Configuration cfg, IMapping mapping, Settings settings, EventListeners listeners)
+   em NHibernate.Cfg.Configuration.BuildSessionFactory()
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   --- Fim do rastreamento de pilha de exceções internas ---
+   em FluentNHibernate.Cfg.FluentConfiguration.BuildSessionFactory()
+   em DB.SessionFactory.CreateSessionFactory() na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 114
+   em DB.SessionFactory..ctor(String szGame, String szLogin, Boolean bConfirm) na C:\CONQUER\Random Server\DB\Session Factory.cs:linha 69
+   em MsgServer.Database.Initialize() na C:\CONQUER\Random Server\MsgServer\Database.cs:linha 82
+
+

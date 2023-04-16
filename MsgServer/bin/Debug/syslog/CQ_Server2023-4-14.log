@@ -1,0 +1,23 @@
+2023-04-14 12:41:26 [DEBUG] - C:\CONQUER\Random Server\MsgServer\bin\Debug
+2023-04-14 12:41:26 [DEBUG] - Computer Name: DESKTOP-SCJGTE3
+2023-04-14 12:41:26 [DEBUG] - User Name: Brendon
+2023-04-14 12:41:26 [DEBUG] - System Directory: C:\Windows\system32
+2023-04-14 12:41:26 [DEBUG] - Some environment variables:
+2023-04-14 12:41:26 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2023-04-14 12:41:26 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2023-04-14 12:41:26 [DEBUG] - PROCESSOR_ARCHITETURE: x64
+2023-04-14 12:41:26 [MESSAGE] - Initializing game server...
+2023-04-14 12:41:26 [MESSAGE] - Initializing blowfish
+2023-04-14 12:41:26 [MESSAGE] - Initializing Database
+2023-04-14 12:41:32 [WARNING] - Server is being closed due to a close button press...
+2023-04-14 12:53:34 [DEBUG] - C:\CONQUER\Random Server\MsgServer\bin\Debug
+2023-04-14 12:53:34 [DEBUG] - Computer Name: DESKTOP-SCJGTE3
+2023-04-14 12:53:34 [DEBUG] - User Name: Brendon
+2023-04-14 12:53:34 [DEBUG] - System Directory: C:\Windows\system32
+2023-04-14 12:53:34 [DEBUG] - Some environment variables:
+2023-04-14 12:53:34 [DEBUG] - OS=Microsoft Windows NT 6.2.9200.0
+2023-04-14 12:53:34 [DEBUG] - NUMBER_OF_PROCESSORS: 12
+2023-04-14 12:53:34 [DEBUG] - PROCESSOR_ARCHITETURE: x64
+2023-04-14 12:53:34 [MESSAGE] - Initializing game server...
+2023-04-14 12:53:34 [MESSAGE] - Initializing blowfish
+2023-04-14 12:53:34 [MESSAGE] - Initializing Database

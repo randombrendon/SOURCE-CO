@@ -1,0 +1,42 @@
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\LoginServer\bin\Debug\LoginServer.exe.config
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\LoginServer\obj\Debug\LoginServer.exe
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\LoginServer\obj\Debug\LoginServer.pdb
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\LoginServer\bin\Debug\LoginServer.exe
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\LoginServer\bin\Debug\LoginServer.pdb
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\LoginServer\bin\Debug\DB.dll
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\LoginServer\bin\Debug\ServerCore.dll
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\LoginServer\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\LoginServer\bin\Debug\DB.pdb
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\LoginServer\bin\Debug\ServerCore.pdb
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\LoginServer\obj\Debug\LoginServer.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\LoginServer\bin\Debug\LoginServer.exe.config
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\LoginServer\obj\Debug\LoginServer.exe
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\LoginServer\obj\Debug\LoginServer.pdb
+C:\Users\adrian\Dropbox\zfserver\zfserver v2.5517\LoginServer\bin\Debug\LoginServer.exe.config
+C:\Users\adrian\Dropbox\zfserver\zfserver v2.5517\LoginServer\obj\Debug\LoginServer.exe
+C:\Users\adrian\Dropbox\zfserver\zfserver v2.5517\LoginServer\obj\Debug\LoginServer.pdb
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\LoginServer\bin\Debug\LoginServer.exe.config
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\LoginServer\obj\Debug\LoginServer.exe
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\LoginServer\obj\Debug\LoginServer.pdb
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\LoginServer\bin\Debug\LoginServer.exe
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\LoginServer\bin\Debug\LoginServer.pdb
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\LoginServer\bin\Debug\DB.dll
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\LoginServer\bin\Debug\ServerCore.dll
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\LoginServer\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\LoginServer\bin\Debug\DB.pdb
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\LoginServer\bin\Debug\ServerCore.pdb
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\LoginServer\obj\Debug\LoginServer.csprojResolveAssemblyReference.cache
+C:\Users\PrimeiroLogin\Downloads\Elitepvpers Releases\zfserver v2.5517\LoginServer\bin\Debug\LoginServer.exe.config
+C:\Users\PrimeiroLogin\Downloads\Elitepvpers Releases\zfserver v2.5517\LoginServer\obj\Debug\LoginServer.exe
+C:\Users\PrimeiroLogin\Downloads\Elitepvpers Releases\zfserver v2.5517\LoginServer\obj\Debug\LoginServer.pdb
+C:\CONQUER\Random Server\LoginServer\bin\Debug\LoginServer.exe.config
+C:\CONQUER\Random Server\LoginServer\obj\Debug\LoginServer.exe
+C:\CONQUER\Random Server\LoginServer\obj\Debug\LoginServer.pdb
+C:\CONQUER\Random Server\LoginServer\bin\Debug\LoginServer.exe
+C:\CONQUER\Random Server\LoginServer\bin\Debug\LoginServer.pdb
+C:\CONQUER\Random Server\LoginServer\bin\Debug\DB.dll
+C:\CONQUER\Random Server\LoginServer\bin\Debug\ServerCore.dll
+C:\CONQUER\Random Server\LoginServer\bin\Debug\BouncyCastle.Crypto.dll
+C:\CONQUER\Random Server\LoginServer\bin\Debug\DB.pdb
+C:\CONQUER\Random Server\LoginServer\bin\Debug\ServerCore.pdb
+C:\CONQUER\Random Server\LoginServer\obj\Debug\LoginServer.csprojResolveAssemblyReference.cache

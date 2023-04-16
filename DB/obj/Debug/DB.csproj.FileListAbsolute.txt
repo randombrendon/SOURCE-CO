@@ -1,0 +1,40 @@
+c:\users\felipe vieira\documents\visual studio 2012\Projects\zfserver v2.5517\DB\obj\Debug\DB.csprojResolveAssemblyReference.cache
+c:\users\felipe vieira\documents\visual studio 2012\Projects\zfserver v2.5517\DB\bin\Debug\DB.dll
+c:\users\felipe vieira\documents\visual studio 2012\Projects\zfserver v2.5517\DB\bin\Debug\DB.pdb
+c:\users\felipe vieira\documents\visual studio 2012\Projects\zfserver v2.5517\DB\bin\Debug\ServerCore.dll
+c:\users\felipe vieira\documents\visual studio 2012\Projects\zfserver v2.5517\DB\bin\Debug\BouncyCastle.Crypto.dll
+c:\users\felipe vieira\documents\visual studio 2012\Projects\zfserver v2.5517\DB\bin\Debug\ServerCore.pdb
+c:\users\felipe vieira\documents\visual studio 2012\Projects\zfserver v2.5517\DB\obj\Debug\DB.dll
+c:\users\felipe vieira\documents\visual studio 2012\Projects\zfserver v2.5517\DB\obj\Debug\DB.pdb
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\DB\bin\Debug\DB.dll
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\DB\bin\Debug\DB.pdb
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\DB\bin\Debug\ServerCore.dll
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\DB\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\DB\bin\Debug\ServerCore.pdb
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\DB\obj\Debug\DB.csprojResolveAssemblyReference.cache
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\DB\obj\Debug\DB.dll
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\DB\obj\Debug\DB.pdb
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\DB\bin\Debug\DB.dll
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\DB\bin\Debug\DB.pdb
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\DB\bin\Debug\ServerCore.dll
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\DB\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\DB\bin\Debug\ServerCore.pdb
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\DB\obj\Debug\DB.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\DB\obj\Debug\DB.dll
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\DB\obj\Debug\DB.pdb
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\DB\bin\Debug\DB.dll
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\DB\bin\Debug\DB.pdb
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\DB\bin\Debug\ServerCore.dll
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\DB\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\DB\bin\Debug\ServerCore.pdb
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\DB\obj\Debug\DB.csprojResolveAssemblyReference.cache
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\DB\obj\Debug\DB.dll
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\DB\obj\Debug\DB.pdb
+C:\CONQUER\Random Server\DB\bin\Debug\DB.dll
+C:\CONQUER\Random Server\DB\bin\Debug\DB.pdb
+C:\CONQUER\Random Server\DB\bin\Debug\ServerCore.dll
+C:\CONQUER\Random Server\DB\bin\Debug\BouncyCastle.Crypto.dll
+C:\CONQUER\Random Server\DB\bin\Debug\ServerCore.pdb
+C:\CONQUER\Random Server\DB\obj\Debug\DB.csprojResolveAssemblyReference.cache
+C:\CONQUER\Random Server\DB\obj\Debug\DB.dll
+C:\CONQUER\Random Server\DB\obj\Debug\DB.pdb

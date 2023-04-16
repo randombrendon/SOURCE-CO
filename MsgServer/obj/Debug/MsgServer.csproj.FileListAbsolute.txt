@@ -1,0 +1,46 @@
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\MsgServer.exe.config
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\MsgServer\obj\Debug\MsgServer.exe
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\MsgServer\obj\Debug\MsgServer.pdb
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\MsgServer.exe
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\MsgServer.pdb
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\DB.dll
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\ServerCore.dll
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\DB.pdb
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\ServerCore.pdb
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\MsgServer\obj\Debug\MsgServer.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\MsgServer.exe.config
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\MsgServer\obj\Debug\MsgServer.exe
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\MsgServer\obj\Debug\MsgServer.pdb
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\MsgServer.exe
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\MsgServer.pdb
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\DB.dll
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\ServerCore.dll
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\DB.pdb
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\ServerCore.pdb
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\MsgServer\obj\Debug\MsgServer.csprojResolveAssemblyReference.cache
+C:\Users\adrian\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\MsgServer.exe.config
+C:\Users\adrian\Dropbox\zfserver\zfserver v2.5517\MsgServer\obj\Debug\MsgServer.exe
+C:\Users\adrian\Dropbox\zfserver\zfserver v2.5517\MsgServer\obj\Debug\MsgServer.pdb
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\MsgServer.exe.config
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\MsgServer\obj\Debug\MsgServer.exe
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\MsgServer\obj\Debug\MsgServer.pdb
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\MsgServer.exe
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\MsgServer.pdb
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\DB.dll
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\ServerCore.dll
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\DB.pdb
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\MsgServer\bin\Debug\ServerCore.pdb
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\MsgServer\obj\Debug\MsgServer.csprojResolveAssemblyReference.cache
+C:\Users\PrimeiroLogin\Downloads\Elitepvpers Releases\zfserver v2.5517\MsgServer\bin\Debug\MsgServer.exe.config
+C:\Users\PrimeiroLogin\Downloads\Elitepvpers Releases\zfserver v2.5517\MsgServer\obj\Debug\MsgServer.exe
+C:\Users\PrimeiroLogin\Downloads\Elitepvpers Releases\zfserver v2.5517\MsgServer\obj\Debug\MsgServer.pdb
+C:\CONQUER\Random Server\MsgServer\bin\Debug\MsgServer.exe.config
+C:\CONQUER\Random Server\MsgServer\obj\Debug\MsgServer.exe
+C:\CONQUER\Random Server\MsgServer\obj\Debug\MsgServer.pdb
+C:\CONQUER\Random Server\MsgServer\bin\Debug\MsgServer.exe
+C:\CONQUER\Random Server\MsgServer\bin\Debug\MsgServer.pdb
+C:\CONQUER\Random Server\MsgServer\bin\Debug\DB.dll
+C:\CONQUER\Random Server\MsgServer\bin\Debug\ServerCore.dll
+C:\CONQUER\Random Server\MsgServer\bin\Debug\DB.pdb
+C:\CONQUER\Random Server\MsgServer\bin\Debug\ServerCore.pdb
+C:\CONQUER\Random Server\MsgServer\obj\Debug\MsgServer.csprojResolveAssemblyReference.cache

@@ -1,0 +1,28 @@
+c:\users\felipe vieira\documents\visual studio 2012\Projects\zfserver v2.5517\ServerCore\obj\Debug\ServerCore.csprojResolveAssemblyReference.cache
+c:\users\felipe vieira\documents\visual studio 2012\Projects\zfserver v2.5517\ServerCore\bin\Debug\ServerCore.dll
+c:\users\felipe vieira\documents\visual studio 2012\Projects\zfserver v2.5517\ServerCore\bin\Debug\ServerCore.pdb
+c:\users\felipe vieira\documents\visual studio 2012\Projects\zfserver v2.5517\ServerCore\bin\Debug\FluentNHibernate.dll
+c:\users\felipe vieira\documents\visual studio 2012\Projects\zfserver v2.5517\ServerCore\bin\Debug\Iesi.Collections.dll
+c:\users\felipe vieira\documents\visual studio 2012\Projects\zfserver v2.5517\ServerCore\bin\Debug\NHibernate.dll
+c:\users\felipe vieira\documents\visual studio 2012\Projects\zfserver v2.5517\ServerCore\obj\Debug\ServerCore.dll
+c:\users\felipe vieira\documents\visual studio 2012\Projects\zfserver v2.5517\ServerCore\obj\Debug\ServerCore.pdb
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\ServerCore\bin\Debug\ServerCore.dll
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\ServerCore\bin\Debug\ServerCore.pdb
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\ServerCore\obj\Debug\ServerCore.dll
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\ServerCore\obj\Debug\ServerCore.pdb
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\ServerCore\bin\Debug\ServerCore.dll
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\ServerCore\bin\Debug\ServerCore.pdb
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\ServerCore\obj\Debug\ServerCore.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\ServerCore\obj\Debug\ServerCore.dll
+C:\Users\Administrador\Dropbox\zfserver\zfserver v2.5517\ServerCore\obj\Debug\ServerCore.pdb
+C:\Users\Felipe Vieira\Dropbox\zfserver\zfserver v2.5517\ServerCore\obj\Debug\ServerCore.csprojResolveAssemblyReference.cache
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\ServerCore\bin\Debug\ServerCore.dll
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\ServerCore\bin\Debug\ServerCore.pdb
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\ServerCore\obj\Debug\ServerCore.csprojResolveAssemblyReference.cache
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\ServerCore\obj\Debug\ServerCore.dll
+C:\Users\PrimeiroLogin\Dropbox\zfserver\zfserver v2.5517\ServerCore\obj\Debug\ServerCore.pdb
+C:\CONQUER\Random Server\ServerCore\bin\Debug\ServerCore.dll
+C:\CONQUER\Random Server\ServerCore\bin\Debug\ServerCore.pdb
+C:\CONQUER\Random Server\ServerCore\obj\Debug\ServerCore.csprojResolveAssemblyReference.cache
+C:\CONQUER\Random Server\ServerCore\obj\Debug\ServerCore.dll
+C:\CONQUER\Random Server\ServerCore\obj\Debug\ServerCore.pdb
